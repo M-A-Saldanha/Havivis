@@ -30,7 +30,12 @@ import { ProductCreateComponent } from './components/product/product-create/prod
 import { ProductReadComponent } from './components/product/product-read/product-read.component'
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component'
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
-import { LoginComponent } from './components/views/login/login.component'
+import { LoginComponent } from './components/views/login/login.component';
+import { FuncionarioCreateComponent } from './components/funcionario/funcionario-create/funcionario-create.component';
+import { FuncionarioCrudComponent } from './components/views/funcionario-crud/funcionario-crud.component';
+import { FuncionarioReadComponent } from './components/funcionario/funcionario-read/funcionario-read.component';
+import { FuncionarioUpdateComponent } from './components/funcionario/funcionario-update/funcionario-update.component';
+import { FuncionarioDeleteComponent } from './components/funcionario/funcionario-delete/funcionario-delete.component'
 
 
 registerLocaleData(localePt)
@@ -47,7 +52,12 @@ registerLocaleData(localePt)
     ProductReadComponent,
     ProductDeleteComponent,
     ProductUpdateComponent,
-    LoginComponent
+    LoginComponent,
+    FuncionarioCreateComponent,
+    FuncionarioCrudComponent,
+    FuncionarioReadComponent,
+    FuncionarioUpdateComponent,
+    FuncionarioDeleteComponent
   ],
   imports: [
     BrowserModule,

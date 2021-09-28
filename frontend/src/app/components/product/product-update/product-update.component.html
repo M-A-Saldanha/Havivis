@@ -14,10 +14,14 @@
             [(ngModel)]="product.description" name="description">
         </mat-form-field>
     </form>
-    <button mat-raised-button (click)="updateProduct()" color="primary">
-        Atualizar
+    <button mat-mini-fab (click)="updateProduct()" color="primary">
+        <i class="material-icons ">
+            update
+        </i>
     </button>
-    <button mat-raised-button (click)="cancel()">
-        Cancelar
+    <button mat-mini-fab (click)="cancel()" color="basic">
+        <i class="material-icons ">
+            close
+        </i>
     </button>
 </mat-card>

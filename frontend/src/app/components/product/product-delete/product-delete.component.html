@@ -10,10 +10,14 @@
             [value]="product.price" name="price" disabled>
         </mat-form-field>
     </form>
-    <button mat-raised-button (click)="deleteProduct()" color="primary">
-        Excluir
+    <button mat-mini-fab (click)="deleteProduct()" color="warn">
+        <i class="material-icons ">
+            delete
+        </i>
     </button>
-    <button mat-raised-button (click)="cancel()">
-        Cancelar
+    <button mat-mini-fab (click)="cancel()" color="basic">
+        <i class="material-icons ">
+            close
+        </i>
     </button>
 </mat-card>
